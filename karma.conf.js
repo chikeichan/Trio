@@ -37,6 +37,8 @@ module.exports = function(config) {
             'src/**/*.js': ['coverage']
         },
 
+        singleRun: true,
+
         // optionally, configure the reporter
         coverageReporter: {
             dir : 'coverage/',
